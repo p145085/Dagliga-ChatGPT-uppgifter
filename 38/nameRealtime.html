@@ -1,0 +1,53 @@
+<!--37. Skapa ett filter för att söka bland en lista av namn i realtid.-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sökfilter</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        input {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            font-size: 16px;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            padding: 10px;
+            background-color: #f9f9f9;
+            margin: 5px 0;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+
+        li.hidden {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>Sök bland namn</h1>
+    <input type="text" id="search" placeholder="Sök efter namn...">
+    <ul id="nameList">
+        <li>Anna</li>
+        <li>Erik</li>
+        <li>Maria</li>
+        <li>Johan</li>
+        <li>Emilia</li>
+        <li>Anders</li>
+    </ul>
+    <script src="script.js"></script>
+</body>
+</html>
