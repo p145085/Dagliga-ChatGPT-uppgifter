@@ -1,0 +1,12 @@
+<root>
+    <person>
+        <name>Anna</name>
+        <age>30</age>
+        <city>Stockholm</city>
+    </person>
+    <person>
+        <name>Erik</name>
+        <age>25</age>
+        <city>Göteborg</city>
+    </person>
+</root>
